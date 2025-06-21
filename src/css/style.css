@@ -1,0 +1,140 @@
+:root {
+  --bg-color: rgb(252, 230, 189);
+  --text-main-color: rgb(51, 45, 33);
+  --jornal-bg-color: rgb(234, 226, 213);
+}
+body {
+  background-color: var(--bg-color);
+  color: var(--text-main-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h2 {
+  font-size: 34px;
+  margin-bottom: 1rem;
+}
+.tagline {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-decoration: underline;
+  font-style: italic;
+}
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid var(--text-main-color);
+}
+.logo-header img {
+  width: 12rem;
+  height: auto;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.menu li a {
+  font-size: 24px;
+  color: var(--text-main-color);
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+.menu li a:hover {
+  color: var(--jornal-bg-color);
+}
+.hamburguer-menu {
+  display: none;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1001;
+}
+.main-root {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 3rem;
+  flex: 1;
+}
+
+.footer {
+  margin-top: 20px;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--jornal-bg-color);
+}
+
+.active {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 1rem;
+    position: relative;
+    transition: 0.3s ease;
+  }
+  .header-nav {
+    flex-grow: 0;
+  }
+  .hamburguer-menu {
+    display: block;
+  }
+  .hamburguer-menu:hover {
+    color: var(--jornal-bg-color);
+  }
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: var(--jornal-bg-color);
+    padding: 1rem 0;
+  }
+  .menu li {
+    width: 100%;
+    text-align: center;
+  }
+  .menu li a {
+    font-size: 20px;
+    padding: 0.8rem 0;
+    display: block;
+  }
+  .menu.active {
+    display: flex;
+  }
+  .tagline {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    font-style: italic;
+  }
+  h2 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+  .main-root {
+    padding: 1rem 1rem;
+  }
+}
+/* ------------------------------------------------ */

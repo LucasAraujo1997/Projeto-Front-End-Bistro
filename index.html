@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="./src/css/reset.css" />
+  <link rel="stylesheet" href="./src/css/style.css" />
+  <link rel="stylesheet" href="./src/css/home.css" />
+  <link rel="stylesheet" href="./src/css/menu-cardapio.css" />
+  <link rel="stylesheet" href="./src/css/contact.css">
+
+  <link rel="shortcut icon" href="./src/assets/favicon/favicon-32x32.png" type="image/x-icon" />
+  <title>Bistro: Sabor que Acolhe</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo-header">
+      <a href="#home"><img src="./src/assets/img/bristro-logo.png" alt="Logo Bistro - página inicial" /></a>
+    </div>
+    <nav class="header-nav">
+      <ul class="menu">
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#cardapio">Cardápio</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+      <div class="hamburguer-menu">&#9776;</div>
+    </nav>
+  </header>
+  <main class="main-root">
+    <article id="home" class="home active">
+      <section class="intro">
+        <div class="intro-content">
+          <h1>Bistro: Sabor que Acolhe</h1>
+          <h2>Onde cada momento é uma celebração de sabor e carinho.</h2>
+          <p>
+            No coração de Paraiba do Sul, nosso bistrô é um convite para você
+            desfrutar de cafés especiais, delícias culinárias e um ambiente
+            que abraça.
+          </p>
+          <p>Prepare-se para uma experiência que vai além do paladar.</p>
+          <a href="#cardapio" class="btn-cardapio">Explore nosso Cardápio</a>
+        </div>
+      </section>
+      <section class="special-of-the-day">
+        <div class="special-content">
+          <h2>Nosso Especial do Dia</h2>
+          <p class="tagline">
+            Uma novidade que aguça o paladar, disponível por tempo limitado.
+          </p>
+          <div class="special-item">
+            <img src="./src/assets/img/cardapio/bolo-chocolate-com-calda.png" alt="fatia de bolo de chocolate" />
+            <h3>Bolo de chocolate com calda artesanal</h3>
+            <p>
+              Celebre os sabores do interior de Paraíba do Sul com nosso bolo
+              de chocolate macio e úmido, finalizado com uma irresístivel
+              calda artesanal.
+            </p>
+            <span class="special-price">R$ 25,50 a fatia</span>
+            <p class="avaliability">
+              Disponível apenas hoje, enquanto durarem os estoques!
+            </p>
+            <a href="#cardapio" class="btn-secondary">Veja mais delícias no Cardápio</a>
+          </div>
+        </div>
+      </section>
+      <section class="menu-highlight">
+        <h2>Nossos Favoritos do Cardapio</h2>
+        <p class="tagline">
+          Descubra as delícias que nossos clientes mais amam e que definem o
+          sabor que acolhe do nosso bistro
+        </p>
+        <div class="highlight-content">
+          <div class="highlight-item">
+            <img src="./src/assets/img/cardapio/latte-art-exclusivo.png" alt="xicara de cafe latte art" />
+            <h3>Latte Art Exclusivo</h3>
+            <p>
+              Nosso café com leite cremoso, preparado com grãos selecionados e
+              finalizados com uma arte única em cada xícara
+            </p>
+            <span class="highlight-price">R$ 14,00</span>
+          </div>
+          <div class="highlight-item">
+            <img src="./src/assets/img/cardapio/croissant-chocolate.png" alt="croissant de chocolate" />
+            <h3>Croissant de Chocolate</h3>
+            <p>
+              Massa folhada amanteigada e crocante, recheada com puro
+              chocolate. O doce perfeito para seu café.
+            </p>
+            <span class="highlight-price">R$ 18,00</span>
+          </div>
+          <div class="highlight-item">
+            <img src="./src/assets/img/cardapio/salada-leve-verao.jpg" alt="Salada leve com frango grelhado" />
+            <h3>Salada leve</h3>
+            <p>
+              Folhas frescas, tomates-cereja frescos, queijo frango grelhado.
+              Uma opção leve e saborosa.
+            </p>
+            <span class="highlight-price">R$ 42,00</span>
+          </div>
+          <div class="highlight-item">
+            <img src="./src/assets/img/cardapio/doces-sobremesas/01-bolos-tortas/02-bolo-red-velvet.jpg"
+              alt="torta ou bolo red velvet" />
+            <h3>Fatia da Torta Red Velvet</h3>
+            <p>
+              Camadas de bolo macio de veludo vermelho com um cremoso recheio
+              de cream cheese. Uma experiência indulgente.
+            </p>
+            <span class="highlight-price">R$ 23,00</span>
+          </div>
+        </div>
+        <a href="#cardapio" class="btn-primary">Ver Cardápio Completo</a>
+      </section>
+      <section class="us-history">
+        <h2>Nossa História: Sabor e Tradição em Paraíba do Sul</h2>
+        <p class="tagline">
+          Uma jornada de paixão por cada detalhe, desde o café perfeito ao
+          abraço do ambiente
+        </p>
+        <div class="history-content">
+          <p>
+            Tudo começou com um sonho e o aroma de café fresco. No coração de
+            <strong>Paraíba do Sul</strong>, em meio às ruas charmosas e à
+            brisa do Rio Paraíba do Sul, o Bistro: Sabor que Acolhe nasceu da
+            paixão de Beatriz Lagoa por **boa comida e momentos
+            inesquecíveis**.
+          </p>
+          <p>
+            Desde 2000, nosso objetivo tem sido criar um refúgio acolhedor. Um
+            lugar onde cada xícara de café especial é preparada com carinho e
+            cada prato reflete a **riqueza dos sabores locais e a alma da
+            culinária artesanal**.
+          </p>
+          <p>
+            Acreditamos que a comida une pessoas e que um bistrô é mais que um
+            local para comer: é um ponto de encontro, de celebração e de
+            descanso. Convidamos você a fazer parte da nossa história e a
+            desfrutar de um pedacinho de Paraíba do Sul que preparamos com
+            tanto afeto. Venha sentir o sabor que realmente acolhe.
+          </p>
+        </div>
+      </section>
+      <section class="ambient">
+        <h2>Nosso espaço: um lugar abraça e aquece seu coração</h2>
+        <p class="tagline">
+          Nosso espaço do Bistro: Sabor que Acolhe é feito para ser um lugar
+          aconhegante que traga conforto para nossos clientes.
+        </p>
+        <div class="ambient-grid">
+          <div class="ambient-item">
+            <img src="./src/assets/img/ambiente/01.png" alt="foto de balcão com cafeteira e doces " />
+          </div>
+          <div class="ambient-item">
+            <img src="./src/assets/img/ambiente/02.jpg" alt="foto de mesa com cadeiras e quadros nas paredes" />
+          </div>
+          <div class="ambient-item">
+            <img src="./src/assets/img/ambiente/03.jpg" alt="foto de mesas com cadeiras " />
+          </div>
+          <div class="ambient-item">
+            <img src="./src/assets/img/ambiente/04.jpg" alt="foto da entrada" />
+          </div>
+        </div>
+      </section>
+      <section class="depoiment">
+        <h2>O Sabor que Acolhe na voz de nossos clientes</h2>
+        <p class="tagline">
+          Acreditamos que a melhor propaganda é a satisfação de quem nos
+          visita. Veja o que estão dizendo sobre a experiência no nosso bistrô
+          em Paraíba do Sul.
+        </p>
+        <div class="depoiment-container">
+          <div class="depoiment-item">
+            <div class="star-depoiment" aria-label="Avaliação 5 de 5 estrelas">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star grey-star"></i>
+            </div>
+            <blockquote>
+              <p>
+                "O Bistro Sabor que Acolhe é o meu refúgio em Paraíba do Sul.
+                Os cafés são impecáveis e os doces... divinos! O ambiente é
+                tão convidativo que me sinto em casa."
+              </p>
+            </blockquote>
+            <cite>— Ana C., Cliente Frequente</cite>
+          </div>
+          <div class="depoiment-item">
+            <div class="star-depoiment" aria-label="Avaliação 5 de 5 estrelas">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <blockquote>
+              <p>
+                "Almocei aqui com a família e ficamos encantados. O prato do
+                dia estava delicioso e o atendimento foi super atencioso. Já
+                queremos voltar!"
+              </p>
+            </blockquote>
+            <cite>— Lucas M., Visita em Família</cite>
+          </div>
+          <div class="depoiment-item">
+            <div class="star-depoiment" aria-label="Avaliação 5 de 5 estrelas">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star grey-star"></i>
+            </div>
+            <blockquote>
+              <p>
+                "Um cantinho charmoso para um café da tarde. O pão de queijo
+                recheado é imperdível. Ótimo lugar para um encontro
+                tranquilo."
+              </p>
+            </blockquote>
+            <cite>— Sofia P., Cliente Satisfeita</cite>
+          </div>
+          <div class="depoiment-item">
+            <div class="star-depoiment" aria-label="Avaliação 5 de 5 estrelas">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <blockquote>
+              <p>"Uma delicia de lugar. Irei continuar frequentando."</p>
+            </blockquote>
+            <cite>— Ana P., Cliente Satisfeita</cite>
+          </div>
+        </div>
+      </section>
+    </article>
+    <article id="cardapio" class="cardapio">
+      <h2 class="cardapio-intro">Cardapio</h2>
+      <section class="coffes-and-drinks">
+        <div class="header-btn-title">
+          <h2>Cafés e Bebidas</h2>
+          <span class="icon-opem-section">
+            <i class="fa-solid fa-angle-down"></i>
+          </span>
+        </div>
+        <div class="menu-category-grid">
+          <div class="menu-item-group">
+            <h3>Cafés Especiais:</h3>
+            <div class="menu-item-container">
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/cafe-bebidas/01-cafes-especiais/01-cafe-expresso.jpg"
+                  alt="café espresso" />
+                <h4>Espresso Tradicional</h4>
+                <p class="item-description">O clássico, puro e intenso.</p>
+                <span class="item-price">R$ 7,50</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/cafe-bebidas/01-cafes-especiais/02-macchiato.jpg" alt="macchiato" />
+                <h4>Macchiato</h4>
+                <p class="item-description">
+                  Espresso com um toque de espuma de leite.
+                </p>
+                <span class="item-price">R$ 9,00</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/cafe-bebidas/01-cafes-especiais/03-capucino-cremoso.jpg"
+                  alt="capuccino cremoso" />
+                <h4>Cappuccino Cremoso</h4>
+                <p class="item-description">
+                  Café, leite vaporizado e uma camada de espuma.
+                </p>
+                <span class="item-price">R$ 12,00</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/cafe-bebidas/01-cafes-especiais/04-mocha.jpg" alt="mocha" />
+                <h4>Mocha</h4>
+                <p class="item-description">
+                  Combinação de café, chocolate e leite, uma delícia para os
+                  amantes de doce.
+                </p>
+                <span class="item-price">R$ 15,00</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/cafe-bebidas/01-cafes-especiais/05-cafe-coado.jpg"
+                  alt="café coado da casa" />
+                <h4>Café Coado da Casa</h4>
+                <p class="item-description">
+                  Preparado com grãos selecionados, para quem aprecia o sabor
+                  tradicional.
+                </p>
+                <span class="item-price">R$ 10,00</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/cafe-bebidas/01-cafes-especiais/06-cold-brew.jpg" alt="cold brew" />
+                <h4>Cold Brew</h4>
+                <p class="item-description">
+                  Café extraído a frio, com sabor suave e menos acidez,
+                  perfeito para dias quentes.
+                </p>
+                <span class="item-price">R$ 14,00</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item-group">
+            <h3>Chás e Infusões</h3>
+            <div class="menu-item-container">
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/cafe-bebidas/02-chas-infusoes/01-cha-verde-gengibre.jpg"
+                  alt="chá verde com gengibre" />
+                <h4>Chá Verde com Gengibre</h4>
+                <p class="item-description">
+                  Refrescante e com um toque picante.
+                </p>
+                <span class="item-price">R$ 9,50</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/cafe-bebidas/02-chas-infusoes/02-cha-frutas-vermelhas.jpg"
+                  alt="chá de frutas vermelhas" />
+                <h4>Chá de Frutas Vermelhas</h4>
+                <p class="item-description">Aromático e adocicado.</p>
+                <span class="item-price">R$ 10,50</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/cafe-bebidas/02-chas-infusoes/03-cha-camomila.jpg"
+                  alt="chá de camomila" />
+                <h4>Chá de Camomila</h4>
+                <p class="item-description">Relaxante e reconfortante.</p>
+                <span class="item-price">R$ 10,50</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/cafe-bebidas/02-chas-infusoes/04-cha-erva-cidreira.jpeg"
+                  alt="chá de erva-cidreira" />
+                <h4>Chá de Erva-Cidreira</h4>
+                <p class="item-description">Relaxante e reconfortante.</p>
+                <span class="item-price">R$ 10,50</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item-group">
+            <h3>Bebidas Geladas:</h3>
+            <div class="menu-item-container">
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/cafe-bebidas/03-bebidas-geladas/01-sucos-naturais.jpg"
+                  alt="sucos naturais" />
+                <h4>Sucos Naturais</h4>
+                <p class="item-description">
+                  Opções variadas como laranja, abacaxi com hortelã, ou um mix
+                  do dia.
+                </p>
+                <span class="item-price">R$ 11,00</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/cafe-bebidas/03-bebidas-geladas/02-limonada-suica.jpg"
+                  alt="limonada suiça" />
+                <h4>Limonada Suíça</h4>
+                <p class="item-description">Refrescante e cremosa.</p>
+                <span class="item-price">R$ 12,50</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/cafe-bebidas/03-bebidas-geladas/03-refrigerantes-artesanais.jpg"
+                  alt="refrigerantes artesanais" />
+                <h4>Refrigerantes Artesanais</h4>
+                <p class="item-description">Refrescante e cremosa.</p>
+                <span class="item-price">R$ 13,00</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/cafe-bebidas/03-bebidas-geladas/04-agua-saborizada.jpg"
+                  alt="agua saborizada da casa" />
+                <h4>Água Saborizada da Casa</h4>
+                <p class="item-description">
+                  Com frutas e ervas frescas (limão, hortelã, pepino).
+                </p>
+                <span class="item-price">R$ 8,00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="snack-savory-snack">
+        <div class="header-btn-title">
+          <h2>Lanches e Salgados</h2>
+          <span class="icon-opem-section">
+            <i class="fa-solid fa-angle-down"></i>
+          </span>
+        </div>
+
+        <div class="menu-category-grid">
+          <div class="menu-item-group">
+            <h3>Sanduiches Artesanais:</h3>
+            <div class="menu-item-container">
+              <div class="menu-item">
+                <img
+                  src="./src/assets/img/cardapio/lanches-salgados/01-sanduiches-artesanais/01-sanduiche-pao-queijo.jpg"
+                  alt="sanduiche de pão de queijo" />
+                <h4>Sanduíche de Pão de Queijo com Queijo Minas</h4>
+                <p class="item-description">Um clássico reinventado.</p>
+                <span class="item-price">R$ 18,00</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/lanches-salgados/01-sanduiches-artesanais/02-croque-monsier.jpg"
+                  alt="croque monsieur/madame" />
+                <h4>Croque Monsieur/Madame</h4>
+                <p class="item-description">
+                  O clássico sanduíche francês gratinado.
+                </p>
+                <span class="item-price">R$ 26,00</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/lanches-salgados/01-sanduiches-artesanais/03-wrap-frango-salada.jpg"
+                  alt="wrap de frango com salada" />
+                <h4>Wrap de Frango com Salada</h4>
+                <p class="item-description">
+                  Leve e saboroso, com molho especial.
+                </p>
+                <span class="item-price">R$ 24,00</span>
+              </div>
+              <div class="menu-item">
+                <img
+                  src="./src/assets/img/cardapio/lanches-salgados/01-sanduiches-artesanais/04-tortex-queijo-presunto.jpg"
+                  alt="tortex de queijo e presunto" />
+                <h4>Tostex de Queijo e Presunto (ou Queijo e Tomate)</h4>
+                <p class="item-description">Simples e delicioso.</p>
+                <span class="item-price">R$ 16,00</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item-group">
+            <h3>Salgados Assados/Fritos:</h3>
+            <div class="menu-item-container">
+              <div class="menu-item">
+                <img
+                  src="./src/assets/img/cardapio/lanches-salgados/02-salgados-assados-fritos/01-pao-de-queijo-de-catupiry.jpg"
+                  alt="pão de queijo recheado com catupiry" />
+                <h4>Pão de Queijo Recheado</h4>
+                <p class="item-description">
+                  Com requeijão, frango desfiado ou carne seca
+                </p>
+                <span class="item-price">R$ 15,00</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/lanches-salgados/02-salgados-assados-fritos/02-coxinha-cremosa.jpeg"
+                  alt="coxinha cremosa" />
+                <h4>Coxinha Cremosa</h4>
+                <p class="item-description">
+                  Um clássico brasileiro irresistível.
+                </p>
+                <span class="item-price">R$ 9,00</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/lanches-salgados/02-salgados-assados-fritos/03-empada-frango.jpg"
+                  alt="empada de frango" />
+                <h4>Empada de frango</h4>
+                <p class="item-description">
+                  Massa crocante e recheio cremoso.
+                </p>
+                <span class="item-price">R$ 11,00</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/lanches-salgados/02-salgados-assados-fritos/04-empada-palmito.jpg"
+                  alt="empada de palmito" />
+                <h4>Empada de Palmito</h4>
+                <p class="item-description">
+                  Massa crocante e recheio cremoso.
+                </p>
+                <span class="item-price">R$ 11,00</span>
+              </div>
+              <div class="menu-item">
+                <img
+                  src="./src/assets/img/cardapio/lanches-salgados/02-salgados-assados-fritos/05-quiche-integral-de-espinafre-com-ricota.jpg"
+                  alt="quiche integral de espinafre com ricota" />
+                <h4>Quiche Lorraine (ou Espinafre com Ricota)</h4>
+                <p class="item-description">
+                  Uma torta salgada elegante e saborosa.
+                </p>
+                <span class="item-price">R$ 18,00</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item-group">
+            <h3>Tapas e Petiscos:</h3>
+            <div class="menu-item-container">
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/lanches-salgados/03-pratos-petiscos/01-bruscheta-variada.jpg"
+                  alt="bruschetta variada" />
+                <h4>Bruschettas Variadas</h4>
+                <p class="item-description">
+                  Tomate cereja e manjericão, cogumelos salteados.
+                </p>
+                <span class="item-price">R$ 22,00</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/lanches-salgados/03-pratos-petiscos/02-mini-pastel-queijo.jpg"
+                  alt="mini pastel de queijo" />
+                <h4>Mini Pastéis de Queijo</h4>
+                <p class="item-description">Pequenos e deliciosos.</p>
+                <span class="item-price">R$ 16,00 (6 unidades)</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/lanches-salgados/03-pratos-petiscos/03-tabuas-frios-queijos.jpg"
+                  alt="tábua de frios" />
+                <h4>Tábuas de Frios e Queijos Locais</h4>
+                <p class="item-description">Ideal para compartilhar.</p>
+                <span class="item-price">R$ 45,00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sweets-desserts">
+        <div class="header-btn-title">
+          <h2>Doces e Salgados</h2>
+          <span class="icon-opem-section">
+            <i class="fa-solid fa-angle-down"></i>
+          </span>
+        </div>
+        <div class="menu-category-grid">
+          <div class="menu-item-group">
+            <h3>Bolos e Tortas:</h3>
+            <div class="menu-item-container">
+              <div class="menu-item">
+                <img
+                  src="./src/assets/img/cardapio/doces-sobremesas/01-bolos-tortas/01-bolo-cenoura-cobertura-brigadeiro.jpg"
+                  alt="bolo de cenoura com cobertura de brigadeiro" />
+                <h4>Bolo de Cenoura com Cobertura de Brigadeiro</h4>
+                <p class="item-description">Um clássico amado.</p>
+                <span class="item-price">R$ 16,00 (fatia)</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/doces-sobremesas/01-bolos-tortas/02-bolo-red-velvet.jpg"
+                  alt="bolo red velvet" />
+                <h4>Red Velvet Cake</h4>
+                <p class="item-description">Fofinho e com cream cheese.</p>
+                <span class="item-price">R$ 18,00 (fatia)</span>
+              </div>
+              <div class="menu-item">
+                <img
+                  src="./src/assets/img/cardapio/doces-sobremesas/01-bolos-tortas/03-cheesecake-de-frutas-vermelhas.jpg"
+                  alt="cheesecake de frutas vermelhas" />
+                <h4>Cheesecake de Frutas Vermelhas</h4>
+                <p class="item-description">
+                  Cremoso e com o azedinho da calda.
+                </p>
+                <span class="item-price">R$ 19,00 (fatia)</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/doces-sobremesas/01-bolos-tortas/04-brownie-sorvete.jpg"
+                  alt="brownie com sorvete" />
+                <h4>Brownie com Sorvete</h4>
+                <p class="item-description">
+                  Quentinho com a casquinha crocante.
+                </p>
+                <span class="item-price">R$ 20,00</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/doces-sobremesas/01-bolos-tortas/05-mousse-chocolate.jpg"
+                  alt="mousse de chocolate belga" />
+                <h4>Mousse de Chocolate Belga</h4>
+                <p class="item-description">Leve e intensa.</p>
+                <span class="item-price">R$ 15,00</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item-group">
+            <h3>Doces Individuais:</h3>
+            <div class="menu-item-container">
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/doces-sobremesas/02-doces-individuais/01-brigadeiro-gourmet.jpg"
+                  alt="brigadeiro gourmet" />
+                <h4>Brigadeiro Gourmet</h4>
+                <p class="item-description">
+                  Sabores variados (tradicional, limão siciliano, pistache).
+                </p>
+                <span class="item-price">R$ 5,00 (cada)</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/doces-sobremesas/02-doces-individuais/02-creme-brule.jpg"
+                  alt="creme brule" />
+                <h4>Creme Brûlée</h4>
+                <p class="item-description">
+                  Clássico francês com casquinha crocante de açúcar.
+                </p>
+                <span class="item-price">R$ 17,00</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/doces-sobremesas/02-doces-individuais/03-pudim-leite-condensado.jpg"
+                  alt="pudim de leite condensado" />
+                <h4>Pudim de Leite Condensado</h4>
+                <p class="item-description">
+                  O tradicional e irresistível pudim.
+                </p>
+                <span class="item-price">R$ 14,00</span>
+              </div>
+              <div class="menu-item">
+                <img
+                  src="./src/assets/img/cardapio/doces-sobremesas/02-doces-individuais/04-coockie-gotas-chocolate.jpg"
+                  alt="cookies com gotas de chocolate" />
+                <h4>Cookies com Gotas de Chocolate</h4>
+                <p class="item-description">
+                  Perfeitos para acompanhar um café.
+                </p>
+                <span class="item-price">R$ 8,00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="lunch">
+        <div class="header-btn-title">
+          <h2>Almoço</h2>
+          <span class="icon-opem-section">
+            <i class="fa-solid fa-angle-down"></i>
+          </span>
+        </div>
+        <div class="menu-category-grid">
+          <div class="menu-item-group">
+            <h3>Prato do Dia:</h3>
+            <div class="menu-item-container">
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/almoco/01-pratos-dia/01-especial-dia-strogonoff.jpg"
+                  alt="prato especial do dia - strogonoff" />
+                <h4>Executivo do Dia</h4>
+                <p class="item-description">
+                  Uma opção que muda diariamente, com proteína, carboidrato e
+                  salada.
+                </p>
+                <span class="item-price">R$ 38,00</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/almoco/01-pratos-dia/02-feijoada.jpg" alt="bolo red velvet" />
+                <h4>Feijoada (quarta-feira e sábado, se for o caso)</h4>
+                <p class="item-description">
+                  Um prato típico e reconfortante.
+                </p>
+                <span class="item-price">R$ 45,00</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/almoco/01-pratos-dia/03-risoto-cremoso.jpg" alt="risoto cremoso" />
+                <h4>Risoto Cremoso</h4>
+                <p class="item-description">
+                  De cogumelos, queijo ou limão siciliano.
+                </p>
+                <span class="item-price">R$ 42,00</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item-group">
+            <h3>Saladas Completas:</h3>
+            <div class="menu-item-container">
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/almoco/02-saladas/01-salada-cobb.jpg" alt="salada cobb" />
+                <h4>Salada Cobb (ou Ceasar)</h4>
+                <p class="item-description">
+                  Proteína (frango/bacon), folhas, ovos, queijo.
+                </p>
+                <span class="item-price">R$ 36,00</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/almoco/02-saladas/02-salada-mediterranea-de-rao-de-bico.jpg"
+                  alt="salada mediterrânea" />
+                <h4>Salada Mediterrânea</h4>
+                <p class="item-description">
+                  Com grão de bico, pepino, tomate, azeitonas e queijo feta.
+                </p>
+                <span class="item-price">R$ 34,00</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item-group">
+            <h3>Massas Frescas:</h3>
+            <div class="menu-item-container">
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/almoco/03-massas-frescas/01-lasanha-bolonhesa.jpg"
+                  alt="lasanha a bolonhesa" />
+                <h4>Lasanha à Bolonhesa (ou Quatro Queijos)</h4>
+                <p class="item-description">Caseira e gratinada.</p>
+                <span class="item-price">R$ 39,00</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/almoco/03-massas-frescas/02-raviole-espinafre.jpg"
+                  alt="raviole de espinafre" />
+                <h4>Ravioli de Espinafre com Molho de Manteiga e Sálvia</h4>
+                <p class="item-description">Leve e saboroso.</p>
+                <span class="item-price">R$ 37,00</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/almoco/03-massas-frescas/04-nhoque-de-batata-ragu-de-carne.jpg"
+                  alt="nhoque de batata" />
+                <h4>Nhoque de Batata com Ragu de Carne</h4>
+                <p class="item-description">Comida reconfortante perfeita.</p>
+                <span class="item-price">R$ 40,00</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item-group">
+            <h3>Sopas e Cremes:</h3>
+            <div class="menu-item-container">
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/almoco/04-sopas-cremes/01-sopa-de-legumes.jpg"
+                  alt="sopa de legumes" />
+                <h4>Sopa de Legumes Frescos</h4>
+                <p class="item-description">Leve e nutritiva.</p>
+                <span class="item-price">R$ 25,00</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/almoco/04-sopas-cremes/02-creme-abobora-gengibre.jpg"
+                  alt="creme de abóbora com gengibre" />
+                <h4>Creme de Abóbora com Gengibre</h4>
+                <p class="item-description">Reconfortante e aromático..</p>
+                <span class="item-price">R$ 28,00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="craft-wines-beers">
+        <div class="header-btn-title">
+          <h2>Vinhos Artesanais e Cervejas Especiais</h2>
+          <span class="icon-opem-section">
+            <i class="fa-solid fa-angle-down"></i>
+          </span>
+        </div>
+        <div class="menu-category-grid">
+          <div class="menu-item-group">
+            <h3>Vinhos:</h3>
+            <div class="menu-item-container">
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/vinhos-cervejas/01-vinhos/01-vinho-tinto-da-casa.jpg"
+                  alt="vinho tinto da casa" />
+                <h4>Vinho Tinto da Casa</h4>
+                <p class="item-description">Opções suaves e encorpadas.</p>
+                <span class="item-price">R$ 25,00 (taça) / R$ 80,00 (garrafa)</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/vinhos-cervejas/01-vinhos/02-vinho-branco.jpg" alt="vinho branco" />
+                <h4>Vinho Branco Leve e Refrescante</h4>
+                <p class="item-description">
+                  Perfeito para acompanhar pratos leves.
+                </p>
+                <span class="item-price">R$ 25,00 (taça) / R$ 80,00 (garrafa)</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/vinhos-cervejas/01-vinhos/03-espumante.jpg" alt="espumante" />
+                <h4>Espumante Brut (ou Demi-Sec)</h4>
+                <p class="item-description">
+                  Para celebrações ou um toque especial.
+                </p>
+                <span class="item-price">R$ 30,00 (taça) / R$ 100,00 (garrafa)</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item-group">
+            <h3>Cervejas Artesanais:</h3>
+            <div class="menu-item-container">
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/vinhos-cervejas/02-cervejas/01-cerveja-artesanal-local.png"
+                  alt="cerveja artesanal local" />
+                <h4>Cerveja Artesanal local</h4>
+                <p class="item-description">
+                  Para os amantes de cervejas mais lupuladas.
+                </p>
+                <span class="item-price">R$ 22,00</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/vinhos-cervejas/02-cervejas/02-cerveja-artesanal-weiss.jpg"
+                  alt="cerveja artesanal weiss" />
+                <h4>Cerveja Artesanal Weiss (Trigo)</h4>
+                <p class="item-description">Leve e aromática.</p>
+                <span class="item-price">R$ 20,00</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/vinhos-cervejas/02-cervejas/03-lager-artesanal.jpg"
+                  alt="cerveja artesanal lager" />
+                <h4>Cerveja Lager Artesanal</h4>
+                <p class="item-description">
+                  Uma opção mais leve e refrescante.
+                </p>
+                <span class="item-price">R$ 18,00</span>
+              </div>
+              <div class="menu-item">
+                <img src="./src/assets/img/cardapio/vinhos-cervejas/02-cervejas/04-cerveja-preta.jpg"
+                  alt="cerveja preta" />
+                <h4>Cerveja Escura</h4>
+                <p class="item-description">
+                  Com notas de café ou chocolate.
+                </p>
+                <span class="item-price">R$ 23,00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </article>
+    <article id="contact" class="contact">
+      <div class="header-contact">
+        <h1>Fale Conosco</h1>
+        <p class="contact-header-p">
+          Estamos aqui para acolher você. Entre em contato para reservas,
+          duvidas ou apenas para um bate-papo sobre nossos sabores!
+        </p>
+      </div>
+      <section class="contact-info">
+        <h2>Informações de Contato:</h2>
+        <div class="info-container">
+          <div class="info-item">
+            <div class="header-item-info">
+              <i class="fa-solid fa-map-location-dot"></i>
+            <h3>Endereço:</h3>
+          </div>
+            <p>Rua das Flores, 123</p>
+            <p>Centro, Paraiba do Sul - RJ</p>
+            <a href="" class="info-btn">Ver no mapa</a>
+          </div>
+          <div class="info-item">
+            <div class="header-item-info">
+              <i class="fa-solid fa-phone"></i>
+              <h3>Telefone:</h3>
+            </div>
+            <p>Para reservas e informações:</p>
+            <p><a href="rel:+5524998882828">(24) xxxxx-xxxx</a></p>
+            <p>(Chamada e WhatsApp)</p>
+          </div>
+          <div class="info-item">
+            <div class="header-item-info">
+              <i class="fa-solid fa-envelope"></i>
+              <h3>E-mail:</h3>
+            </div>
+            <p>Para outras consultas:</p>
+            <p>
+              <a href="mailtp:contato@seuBistro.com.br">contato@seuBistro.com.bt</a>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="hour-of-operation">
+        <h2>Horário de Funcionamento:</h2>
+        <p class="tagline">Planeje sua visita e venha desfrutar!</p>
+        <div class="hour-list">
+          <ul>
+            <li>
+              **Terça a Sexta:**<span>10:00 - 22:00</span></a>
+            </li>
+            <li>
+              **Sábado:**<span>09:00 - 23:00</span></a>
+            </li>
+            <li>
+              **Domingo:**<span>09:00 - 18:00</span></a>
+            </li>
+            <li>
+              **Segunda-feira:**<span>Fechado</span></a>
+            </li>
+          </ul>
+          <p class="note">Feriados podem ter horários especiais. Consulte nossas redes sociais ou entre em contato.</p>
+        </div>
+      </section>
+      <section class="contact-form">
+        <h2>Envie nos uma Mensagem</h2>
+        <p class="tagline">Preencha o formulário abaixo e responderemos em breve!</p>
+        <form action="#" method="POST" class="bistro-form">
+          <div class="form-group">
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name" required placeholder="Seu nome completo">
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" required placeholder="seu.email@exemplo.com">
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefone:</label>
+            <input type="tel" name="phone" id="phone" placeholder="(xx) xxxxx-xxxx">
+          </div>
+          <div class="form-group">
+            <label for="subject">Assunto:</label>
+            <input type="text" name="subject" id="subject" placeholder="Ex: Reserva, Dúvida sobre o cardápio">
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem:</label>
+            <textarea name="message" id="message" rows="6" required
+              placeholder="Escreva sua mensagem aqui..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Enviar Mensagem</button>
+        </form>
+      </section>
+      <section class="location">
+        <h2>Nossa localização</h2>
+        <p class="tagline">Venha nos visitar em Paraíba do Sul!</p>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2210.8264178206764!2d-43.28647316118234!3d-22.158919710841083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x98f08410a1c2e7%3A0xa69f1c5e7d58ca2a!2sPrefeitura%20Municipal%20de%20Para%C3%ADba%20do%20Sul!5e1!3m2!1spt-BR!2sbr!4v1750472505319!5m2!1spt-BR!2sbr" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+      </section>
+      <section class="social-media-contact">
+        <h2>Conecte-se Conosco</h2>
+        <p class="tagline">Siga-nos nas redes sociais para ficar por dentro das novidades!</p>
+        <div class="social-icons">
+          <a href="https://instagran.com" target="_blank" aria-label="Instagram do Bistro" class="instagran"><i
+              class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://facebook.com" target="_blank" aria-label="facebook do Bistrô" class="facebook">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="https://wa.me/55249xxxxyyyy" target="_blank" aria-label="WhatsApp do Bistrô" class="wpp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer class="footer">
+    <p>Um projeto feito por Lucas Araújo</p>
+  </footer>
+
+  <script src="./src/js/script.js"></script>
+  <script src="./src/js/menu-hamburguer.js"></script>
+</body>
+
+</html>

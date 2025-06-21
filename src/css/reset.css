@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  min-height: 100dvh;
+  width: 100%;
+}
+h1,
+h2 {
+  font-family: "Playfair Display", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+img {
+  width: 100%;
+}
