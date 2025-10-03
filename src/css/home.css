@@ -196,7 +196,14 @@
 .grey-star {
   color: grey;
 }
-
+@media (max-width: 1140px) {
+  .highlight-content {
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
 @media (max-width: 768px) {
   .intro-content {
     align-items: center;

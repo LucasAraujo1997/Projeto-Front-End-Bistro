@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const articles = document.querySelectorAll("main.main-root article");
   const navLinks = document.querySelectorAll("a[href^='#']");
+  const sectionMap = document.querySelector("#map");
 
   function toggleArticleVisibility(targetId) {
     articles.forEach((article) => {
@@ -16,9 +17,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
   navLinks.forEach((link) => {
     link.addEventListener("click", (ev) => {
-      ev.preventDefault();
       const targetId = link.getAttribute("href");
-      toggleArticleVisibility(targetId);
+      const targetElement = document.querySelector(targetId);
+
+      if (targetElement && targetElement.tagName.toLowerCase() === "article") {
+        ev.preventDefault();
+        toggleArticleVisibility(targetId);
+      } else if (
+        targetElement &&
+        targetElement.tagName.toLowerCase() === "section"
+      ) {
+        ev.preventDefault();
+        targetElement.scrollIntoView({ behavior: "smooth" });
+      }
     });
   });
 
