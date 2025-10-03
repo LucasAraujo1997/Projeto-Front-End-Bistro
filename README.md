@@ -63,6 +63,6 @@ Esta seção é crucial para dar crédito ao seu trabalho e permitir que as pess
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a Licença **MIT**.
+Este projeto está licenciado sob a **[Licença MIT](LICENSE)**.
 
-**<Recomendação:** Crie um arquivo `LICENSE` no repositório para formalizar a licença.**>**
+Para mais detalhes, consulte o arquivo [LICENSE](LICENSE) no repositório.
